@@ -34,35 +34,12 @@ Exploratory Data Analysis (EDA): Conducted using .info(), .describe(), and .colu
 
 🔍 Classifier Performance Comparison
 
-Classifier
-
-Accuracy Score
-
-ROC AUC Score
-
-Logistic Regression
-
-52.6%
-
-0.62
-
-Decision Tree
-
-59.2%
-
-0.59
-
-Random Forest Classifier
-
-57.9%
-
-0.70
-
-AdaBoost Classifier
-
-50.0%
-
-0.60
+| Classifier               | Accuracy Score | ROC AUC Score |
+| ------------------------ | -------------- | ------------- |
+| Logistic Regression      | 52.6%          | 0.62          |
+| Decision Tree            | 59.2%          | 0.59          |
+| Random Forest Classifier | 57.9%          | 0.70          |
+| AdaBoost Classifier      | 50.0%          | 0.60          |
 
 Key Insight: The Random Forest Classifier outperformed other models with the highest ROC AUC score of 0.70, indicating superior discriminative ability.
 
@@ -72,39 +49,13 @@ Ensemble Methods: Random Forest demonstrated the best performance amon⚡ Model 
 
 🔍 Classifier Performance Comparison
 
-Classifier
-
-Accuracy Score
-
-ROC AUC Score
-
-Logistic Regression
-
-52.6%
-
-0.62
-
-Decision Tree
-
-59.2%
-
-0.59
-
-Random Forest Classifier
-
-57.9%
-
-0.70
-
-AdaBoost Classifier
-
-50.0%
-
-0.60
-
+| Classifier               | Accuracy Score | ROC AUC Score |
+| ------------------------ | -------------- | ------------- |
+| Logistic Regression      | 52.6%          | 0.62          |
+| Decision Tree            | 59.2%          | 0.59          |
+| Random Forest Classifier | 57.9%          | 0.70          |
+| AdaBoost Classifier      | 50.0%          | 0.60          |
 Key Insight: The Random Forest Classifier outperformed other models with the highest ROC AUC score of 0.70, indicating superior discriminative ability.
-
-
 
 
 
