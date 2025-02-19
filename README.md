@@ -1,10 +1,10 @@
 # Disease-Outcome-Prediction-Using-Machine-Learning-Classifiers
 
-📚 Overview
+📚 **Overview**
 
 This project explores the predictive performance of various machine learning classifiers for disease outcome prediction using symptom profiles and patient demographic data. The study compares four classifiers—Logistic Regression, Decision Tree, Random Forest, and AdaBoost—to identify the most effective model for this healthcare application.
 
-📂 Dataset Information
+📂 **Dataset Information**
 
 The dataset used is the "Disease_symptom_and_patient_profile_dataset", which includes:
 
@@ -18,7 +18,7 @@ Outcome Variable: Binary indicator (Positive/Negative) for disease presence
 
 Note: The "Disease" column was removed during preprocessing as it wasn't required for the predictive modeling task.
 
-🧹 Data Preprocessing
+🧹 **Data Preprocessing**
 
 Removed Irrelevant Columns: Dropped the 'Disease' column.
 
@@ -30,7 +30,7 @@ Duplicate Removal: Removed duplicate records to ensure data integrity.
 
 Exploratory Data Analysis (EDA): Conducted using .info(), .describe(), and .columns, with visualizations for age distribution and gender frequency.
 
-⚡ Model Evaluation and Results
+⚡ **Model Evaluation and Results**
 
 🔍 Classifier Performance Comparison
 
@@ -47,7 +47,7 @@ Key Insight: The Random Forest Classifier outperformed other models with the hig
 
 Ensemble Methods: Random Forest demonstrated the best performance amon⚡ Model Evaluation and Results
 
-🔍 Classifier Performance Comparison
+🔍 **Classifier Performance Comparison**
 
 | Classifier               | Accuracy Score | ROC AUC Score |
 | ------------------------ | -------------- | ------------- |
@@ -59,7 +59,7 @@ Key Insight: The Random Forest Classifier outperformed other models with the hig
 
 
 
-g tested classifiers.
+**Grid search tested classifiers.**
 
 Feature Engineering: Incorporate domain-specific features for improved accuracy.
 
@@ -69,6 +69,6 @@ Advanced Ensembles: Explore Gradient Boosting and XGBoost for potential performa
 
 Interpretability: Focus on model explainability for practical healthcare applications.
 
-🌟 Let's Collaborate!
+🌟 **Let's Collaborate!**
 
 If this project interests you, feel free to star ⭐ the repository and contribute to enhancing disease outcome prediction techniques!
